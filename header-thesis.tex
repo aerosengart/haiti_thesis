@@ -1,0 +1,191 @@
+
+\newcommand\mytitle{Title}
+
+
+\newcommand\comma{{\hspace{-0.25mm},\hspace{-0.2mm}}}
+
+
+%%%%%%%%%%%%%%%% START OF USER DEFINITIONS %%%%%%%%%%%%%%%5
+
+\newcommand\siOnly[1]{} %% redefined for the supplement
+\newcommand\msOnly[1]{#1} %% redefined for the supplement
+
+\newcommand\code[1]{\texttt{#1}}
+\usepackage{url}
+
+%% EDITING MACROS
+
+\usepackage{color}
+\usepackage[normalem]{ulem}% to use \sout in feedback commands
+% orange for EI
+\definecolor{orange}{rgb}{1,0.5,0}
+\newcommand\ei[2]{\sout{#1} \textcolor{orange}{#2}}
+\newcommand\eic[1]{\textcolor{orange}{[#1]}}
+% green for JW
+\definecolor{green}{rgb}{0,0.5,0}
+\newcommand\aw[2]{\sout{#1} \textcolor{green}{#2}}
+\newcommand\awc[1]{\textcolor{green}{[#1]}}
+% purple for JJ
+\definecolor{purple}{rgb}{0.5,0,1}
+\newcommand\jj[2]{\sout{#1} \textcolor{purple}{#2}}
+\newcommand\jjc[1]{\textcolor{purple}{[#1]}}
+% cyan for AR
+\definecolor{cyan}{rgb}{0,.5,.5}
+\newcommand\ar[2]{\sout{#1} \textcolor{cyan}{#2}}
+\newcommand\arc[1]{\textcolor{cyan}{#1}}
+% light brown for KA
+\definecolor{lightbrown}{rgb}{0.5,0.5,0}
+\newcommand\ka[2]{\sout{#1} \textcolor{lightbrown}{#2}}
+\newcommand\kac[1]{\textcolor{lightbrown}{#1}}
+%\definecolor{teal}{rgb}{0,0.5,0.8}
+
+%\usepackage{showkeys}
+%\usepackage[numbers,sort&compress]{natbib}
+%\bibliographystyle{apalike}
+
+%\usepackage{natbib}
+%\bibliographystyle{plainnat}
+%\bibliographystyle{dcu}
+%\usepackage{url}
+
+
+%% basic POMP definitions
+\newcommand\Xspace{{\mathbb X}}
+\newcommand\Yspace{{\mathbb Y}}
+%\newcommand\Thetaspace{{\Theta}}
+\newcommand\Thetaspace{\R^{\Thetadim}}
+\newcommand\Xunitspace{{\scriptsize{\mathcal X}}}
+\newcommand\Yunitspace{{\tiny{\mathcal Y}}}
+\newcommand\hatTheta{\widehat{\Theta}}
+\newcommand\Xdim{{\mathrm{dim}}(\Xspace)}
+\newcommand\Ydim{{\mathrm{dim}}(\Yspace)}
+%\newcommand\Thetadim{{\mathrm{dim}}(\Thetaspace)}
+\newcommand\Thetadim{P}
+\newcommand\thetadim{p}
+\newcommand\timeSet{{\mathbb T}}
+\newcommand\data[1]{#1^*}
+
+\newcommand\unitSpecific{\hspace{0.1mm}\mathrm{us}}
+\newcommand\shared{\hspace{0.15mm}\mathrm{sh}}
+
+%% for particle filters
+\newcommand\unit{u}
+\newcommand\altUnit{\tilde u}
+\newcommand\Unit{U}
+\newcommand\rep{i}
+\newcommand\Rep{\mathcal{I}}
+\newcommand\island{\rep}
+\newcommand\Island{\Rep}
+%\newcommand\txtisland{replicate}
+\newcommand\altIsland{\tilde i}
+\usepackage[mathscr]{euscript}
+
+\renewcommand\time{n}
+\newcommand\myvec[1]{\boldsymbol{#1}}
+\newcommand\altTime{\tilde n}
+\newcommand\Time{N}
+\newcommand\Np{J}
+\newcommand\np{j}
+\newcommand\altNp{k}
+\newcommand\altAltNp{\tilde j}
+\newcommand\resampleIndex{r}
+\newcommand\unitWeight{w}
+
+%% for GIR
+%\newcommand\Lookahead{L}
+%\newcommand\lookahead{\ell}
+\newcommand\Ninter{S} %% number of intermediate timepoints
+\newcommand\ninter{s}
+%\newcommand\Nguide{K} %% number of lookahead particles
+%\newcommand\nguide{k}
+%\newcommand\lookaheadEnd{\time\oplus \Lookahead}
+%\newcommand\lookaheadEnd{\min(\time+\Lookahead,\Time)}
+\newcommand\guideFunc{g}
+%\newcommand\VtoTheta{{\overleftarrow{V}}}
+%\newcommand\thetaToV{{\overrightarrow{V}}}
+%\newcommand\VtoTheta{{\overline{V}}}
+%\newcommand\thetaToV{\underline{V}}
+%\newcommand\thetaToV[1]{\stackrel{\rightarrow}{\mathrm{v}}_{\hspace{-0.5mm}#1}\!}
+%\newcommand\VtoTheta[1]{\stackrel{\leftarrow}{\mathrm{v}}_{\hspace{-0.5mm}#1}\!}
+\newcommand\thetaToV{\stackrel{\rightarrow}{\mathrm{v}}\!}
+\newcommand\VtoTheta{\stackrel{\leftarrow}{\mathrm{v}}\!}
+%\newcommand\thetaToV[1]{\stackrel{\rightarrow}{\mathrm{v}_{#1}}\!}
+%\newcommand\VtoTheta[1]{\stackrel{\leftarrow}{\mathrm{v}_{#1}}\!}
+\newcommand\npgir{\np}
+\newcommand\Npgir{\Np}
+\newcommand\Nguide{G}
+
+%% for all iterated filtering algorithms
+\newcommand\Nit{M}
+\newcommand\nit{m}
+
+
+%% customized math macros
+\newcommand\prob{\mathbb{P}}
+\newcommand\E{\mathbb{E}}
+\newcommand\dd[1]{\mathrm{d}{#1}}
+\newcommand\given{{\,\vert\,}}
+\newcommand\equals{{{\,}={\,}}} 
+\newcommand\myequals{\hspace{0.5mm}{=}\hspace{0.5mm}}
+\newcommand\myto{{\;:\;}}
+\newcommand\seq[2]{{#1}\!:\!{#2}}
+\newcommand\mydot{{\,\cdot\,}}
+\newcommand\cp[2]{N_{\mathrm{#1}\mathrm{#2}}}
+\newcommand\giventh{{\hspace{0.5mm};\hspace{0.5mm}}}
+%\newcommand\normal{{\mathrm{Normal}}}
+\newcommand\normal{\mathcal{N}}
+\newcommand\argequals{{\,=\,}}
+\newcommand\lags{c}
+\newcommand\maxlag{\overline{c}}
+\newcommand\nlfList{C}
+\newcommand\bigO{\mathcal{O}}
+\newcommand\loglik{\lambda}
+\newcommand\loglikMC{\MC{\loglik}}
+\newcommand\R{\mathbb{R}}
+\newcommand\param{\,;}
+\newcommand\mycolon{{\hspace{0.6mm}:\hspace{0.6mm}}}
+\newcommand\MC[1]{#1^{\,\mbox{\tiny MC}}}
+%\newcommand\EMC{\MC{\E}}
+\newcommand\EMC{{\E}}
+\newcommand\Var{\mathrm{Var}}
+\newcommand\var{\Var}
+\newcommand\Cov{\mathrm{Cov}} 
+\newcommand\cov{\Cov}
+\newcommand\iid{\mathrm{iid}}
+%\newcommand\dist{\mathrm{dist}}
+\newcommand\dist{d}
+\newcommand\transpose{\top}
+
+\newcommand\gnsep{,}
+
+\def\lik{L}
+\def\loglik{\ell}
+
+%% THEOREM-LIKE ENVIRONMENTS
+\usepackage{amsthm}
+\newtheorem{prop}{Proposition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{example}{Example}
+\newtheorem{remark}{Remark}
+\newtheorem{cor}{Corrolary}
+\newtheorem{fact}{Fact}  
+\newtheorem{assumption}{Assumption}
+\newtheorem{assumptionB}{Assumption}
+\newtheorem{procedure}{Procedure}
+\renewcommand\theassumption{A\arabic{assumption}}
+\renewcommand\theassumptionB{B\arabic{assumptionB}}
+
+%\usepackage{float}
+%\floatstyle{ruled}
+%\newfloat{textbox}{t}{tbx}
+%\floatname{textbox}{Box}
+%\renewcommand\thetextbox{\arabic{textbox}}
+
+
+%% FOR PSEUDOCODE SETUP
+\newcommand\mystretch{\rule[-2mm]{0mm}{5mm} }   
+\newcommand\asp{\hspace{4mm}}
+\newcommand\codeIndent{\hspace{4mm}}
+
+%%%%%%%%%%%%%%%% END OF USER DEFINITIONSS %%%%%%%%%%%%%%%5

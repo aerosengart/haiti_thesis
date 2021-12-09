@@ -1,0 +1,59 @@
+This is BibTeX, Version 0.99d (TeX Live 2018)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: thesis.aux
+The style file: plain.bst
+Database file #1: bib-thesis.bib
+I was expecting a `,' or a `}'---line 466 of file bib-thesis.bib
+ : 
+ : address = {Cham},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--to sort, need author or key in Lee_haiticholera
+Warning--to sort, need author, editor, or key in cham
+Warning--empty author and editor in cham
+Warning--empty title in cham
+Warning--empty publisher in cham
+Warning--empty year in cham
+Warning--empty author in Lee_haiticholera
+You've used 24 entries,
+            2118 wiz_defined-function locations,
+            652 strings with 8750 characters,
+and the built_in function-call counts, 9474 in all, are:
+= -- 892
+> -- 577
+< -- 3
++ -- 226
+- -- 201
+* -- 834
+:= -- 1603
+add.period$ -- 71
+call.type$ -- 24
+change.case$ -- 169
+chr.to.int$ -- 0
+cite$ -- 31
+duplicate$ -- 278
+empty$ -- 667
+format.name$ -- 201
+if$ -- 1882
+int.to.chr$ -- 0
+int.to.str$ -- 24
+missing$ -- 24
+newline$ -- 119
+num.names$ -- 50
+pop$ -- 155
+preamble$ -- 1
+purify$ -- 144
+quote$ -- 0
+skip$ -- 167
+stack$ -- 0
+substring$ -- 633
+swap$ -- 26
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 92
+warning$ -- 7
+while$ -- 82
+width$ -- 26
+write$ -- 262
+(There was 1 error message)
