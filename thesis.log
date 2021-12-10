@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  10 DEC 2021 14:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  10 DEC 2021 14:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -785,7 +785,7 @@ Here is how much of TeX's memory you used:
  13513 multiletter control sequences out of 15000+600000
  38442 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,16n,46p,1856b,491s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,16n,46p,1856b,495s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 }</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
@@ -804,7 +804,7 @@ e/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
 8/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2018
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2018/
 texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on thesis.pdf (29 pages, 2576722 bytes).
+Output written on thesis.pdf (29 pages, 2576946 bytes).
 PDF statistics:
  425 PDF objects out of 1000 (max. 8388607)
  94 named destinations out of 1000 (max. 500000)

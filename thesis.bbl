@@ -55,19 +55,19 @@ Kesten~C. Green and J.~Scott Armstrong.
 \newblock {Simple versus complex forecasting: The evidence}.
 \newblock {\em Journal of Business Research}, 68(8):1678--1685, 2015.
 
-\bibitem{Ionides_infdynsys}
-E.~L. Ionides, C.~Bret{\'{o}}, and A.~A. King.
-\newblock {Inference for nonlinear dynamical systems}.
-\newblock {\em Proceedings of the National Academy of Sciences of the United
-  States of America}, 103(49):18438--18443, 2006.
-
 \bibitem{Ionides_if}
 Edward~L. Ionides, Anindya Bhadra, Yves Atchad{\'{e}}, and Aaron King.
 \newblock {Iterated filtering}.
 \newblock {\em Annals of Statistics}, 39(3):1776--1802, 2011.
 
+\bibitem{Ionides_infdynsys}
+Edward~L. Ionides, C.~Bret{\'{o}}, and Aaron~A. King.
+\newblock {Inference for nonlinear dynamical systems}.
+\newblock {\em Proceedings of the National Academy of Sciences of the United
+  States of America}, 103(49):18438--18443, 2006.
+
 \bibitem{Ionides_infpomp}
-Edward~L Ionides, Dao Nguyen, Yves Atchad{\'{e}}, Stilian Stoev, and Aaron~A
+Edward~L. Ionides, Dao Nguyen, Yves Atchad{\'{e}}, Stilian Stoev, and Aaron~A.
   King.
 \newblock {Inference for dynamic and latent variable models via iterated,
   perturbed Bayes maps}.
