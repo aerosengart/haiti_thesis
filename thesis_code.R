@@ -1,5 +1,5 @@
 ##=============================================================================##
-## Reproduction: Thesis Figures                                                ##
+## Reproduction: Thesis Code                                                   ##
 ##=============================================================================##
 ## load packages/functions
 library("ggplot2")
@@ -34,6 +34,30 @@ plot_sim_dat <- function(simdat) {
 }
 
 haiti_dat <- haiti1_agg_data()
+
+################################################################################
+## ARMA Benchmarks                                                            ##
+################################################################################
+## epidemic period
+epi_haiti_dat <- haiti_dat %>% filter(week <= 232)
+epi_log_full_cases <- log(epi_haiti_dat$cases + 1)
+epi_log_sum <- sum(epi_log_full_cases)
+epi_arima_21 <- arima(epi_log_full_cases, order = c(2, 0, 1))
+epi_arima_21$loglik - epi_log_sum
+
+## endemic period
+end_haiti_dat <- haiti_dat %>% filter(week > 232)
+end_log_full_cases <- log(end_haiti_dat$cases + 1)
+end_log_sum <- sum(end_log_full_cases, na.rm = TRUE)
+end_arima_21 <- arima(end_log_full_cases, order = c(2, 0, 1))
+end_arima_21$loglik - end_log_sum 
+
+## full period
+log_full_cases <- log(haiti_dat$cases + 1)
+log_sum <- sum(log_full_cases, na.rm = TRUE)
+arima_21 <- arima(log_full_cases, order = c(2, 0, 1))
+arima_21$loglik - log_sum 
+
 ################################################################################
 ## Reproduction - Figure A1                                                   ##
 ################################################################################

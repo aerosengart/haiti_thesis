@@ -1,8 +1,5 @@
 \begin{thebibliography}{10}
 
-\bibitem{cham}
-
-
 \bibitem{Lee_haiticholera}
 {Achieving coordinated national immunity and cholera elimination in Haiti
   through vaccination: a modelling study}.
@@ -39,6 +36,11 @@ Kashmira~A. Date, Andrea Vicari, Terri~B. Hyde, Eric Mintz, M.~Carolina
 \newblock {Considerations for oral cholera vaccine use during outbreak after
   earthquake in Haiti, 2010-2011}.
 \newblock {\em Emerging Infectious Diseases}, 17(11):2105--2112, 2011.
+
+\bibitem{cham}
+Randal Douc, Eric Moulines, Pierre Priouret, and Philippe Soulier.
+\newblock {\em {Markov Chains}}.
+\newblock Cham, 2018.
 
 \bibitem{fung}
 Isaac Chun~Hai Fung, David~L. Fitter, Rebekah~H. Borse, Martin~I. Meltzer, and
@@ -109,7 +111,7 @@ Stanislas Rebaudet, Patrick D{\'{e}}ly, Jacques Boncy, Jean~Hugues Henrys, and
 
 \bibitem{Sanon}
 Valentine Sanon, Frantz Sainvil, R~Awan, George~P Einstein, and L~Orien.
-\newblock {Haiti's cholera epidemic : will it return in 2021 ?}
+\newblock {Haiti's cholera epidemic: will it return in 2021?}
 \newblock {\em Gastroenterology \& Hepatology}, 12(4):124--126, 2021.
 
 \bibitem{Shumway_ch1}
